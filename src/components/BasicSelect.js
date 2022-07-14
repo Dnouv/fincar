@@ -52,7 +52,7 @@ export const BasicSelect = ({ carData }) => {
       let intersection = Object.values(eleObj).filter((value) =>
         Object.values(carS2).includes(value)
       );
-      if (intersection.toString() == Object.values(carS2).toString()) {
+      if (intersection.toString() === Object.values(carS2).toString()) {
         setCar({
           show: true,
           name: eleObj.name,

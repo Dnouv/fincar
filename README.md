@@ -1,6 +1,40 @@
-# Getting Started with Create React App
+# Getting Started with React Car App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Get Started
+1. Clone the Repository on your local or launch it in the Gitpod.
+2. In the root of the directory first run
+```
+npm i
+```
+3. After all the packages are installed, run
+```
+npm start
+```
+4. If all thing went perfect, you will be able to launch the project on `localhost:3000`.If you run into any  issues, please feel free to open an issue.
+## Code Info
+The dummy data of cars is stored under the `src/assets/cars.json`
+A general structure looks like
+```json
+{
+    "carType": [
+        {
+            name: "Car1",
+            subProperty: "first",
+            subProperty: "second",
+            subProperty: "third"
+        }
+    ]
+}
+```
+When a user selects from a dropdown one of three Car Types (electrical, 2 wheels or Sport). Another required sub car types selection becomes visible.
+Which includes
+1. Brand
+2. Model
+3. Make
+
+After successful entry to all the fields, hit the "Submit" Button at the bottom of the form. If the Car with given specification exists it will give the Car name with a _Info_ alert, or else, an _error_ alert with the name **Dream Car**. 
+
+
 
 ## Available Scripts
 
@@ -39,32 +73,15 @@ Instead, it will copy all the configuration files and the transitive dependencie
 
 You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
+## Screenshots
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+<figure>
+<img src="./media/success.png" alt="success search">
+<figcaption>On a successful search the name appeared in the info Alert</figcaption>
+</figure>
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+<figure>
+<img src="./media/error.png" alt="unsuccessful search">
+<figcaption>The entered specs car does not exists in the database, and hence an Error alert is shown with the name "Dream Car"</figcaption>
+</figure>
 
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
