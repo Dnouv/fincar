@@ -1,0 +1,62 @@
+{
+  "electrical": [
+    {
+        "brand": "Tesla",
+        "make": 2015,
+        "model": "T1",
+        "name": "Cyber Truck"
+      },
+      {
+        "brand": "Tesla",
+        "make": 2016,
+        "model": "T2",
+        "name": "Improved Cyber Truck"
+      },
+      {
+        "brand": "Porsche",
+        "make": 2017,
+        "model": "Turbo",
+        "name": "Porsche Taycan"
+      }
+  ],
+  "2 wheels": [
+    {
+        "brand": "Toyota",
+        "make": 2018,
+        "model": "T1",
+        "name": "Toyota Fortuner"
+      },
+      {
+        "brand": "Kia",
+        "make": 2019,
+        "model": "T2",
+        "name": "Kia Saltos"
+      },
+      {
+        "brand": "Kia",
+        "make": 2020,
+        "model": "Turbo",
+        "name": "Kia Sonet"
+      }
+  ],
+  "Sport": [
+    {
+        "brand": "Chevrolet ",
+        "make": 2021,
+        "model": "White",
+        "name": "Chevrolet Corvette"
+      },
+      {
+        "brand": "Porsche",
+        "make": 2022,
+        "model": "Black",
+        "name": "Acura NSX"
+      },
+      {
+        "brand": "Porsche",
+        "make": 2023,
+        "model": "Red",
+        "name": "Porsche 911"
+      }
+  ]
+}
